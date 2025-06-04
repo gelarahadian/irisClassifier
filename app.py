@@ -46,7 +46,3 @@ if st.button("Predict"):
     st.bar_chart(pd.DataFrame(proba, index=target_names, columns=["Probability"]))
 else:
     st.info("⬅️ Masukkan fitur dan klik Predict")
-
-app.py
-
-Menampilkan app.py.
